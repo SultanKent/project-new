@@ -1,0 +1,96 @@
+.Singers {
+    width: 1920px;
+    color: black;
+    padding: 240px 375px;
+}
+
+.sinPattern {
+    top: 2969px;
+    left: 1677px;
+    position: absolute;
+}
+
+.sinConfetti {
+    position: relative;
+    top: 1036px;
+    left: 1284px;
+}
+
+.sinRectangle {
+    left: 139.71px;
+    top: 3621.56px;
+    position: absolute;
+}
+
+.Singers_main {
+    align-items: center;
+    display: flex;
+    gap: 30px;
+}
+
+.left-s{
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.left-s1>h4 {
+    padding-bottom: 32px;
+}
+
+.singers_btn {
+    background: #381DDB;
+    width: 240px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+.right-s>div {
+    display: flex;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.right-s>div>:nth-child(1) {
+    position: relative;
+    top: 20px;
+}
+
+.slide {
+    margin-top: 90px;
+    opacity: 0.5;
+    filter: blur(40px);
+    position: absolute;
+    z-index: 1;
+}
+
+.slide2 {
+    z-index: 1;
+    margin-top: 50px;
+    left: 1275px;
+    opacity: 0.5;
+    filter: blur(40px);
+    position: absolute;
+}
+
+@media screen and (max-width: 768px) {
+    .Singers {
+        width: 768px;
+        padding: 0px 85px;
+    }
+    .sinPattern {
+        display: none;
+    }
+    .sinConfetti {
+        display: none;
+    }
+    .sinRectangle {
+        display: none;
+    }
+    .Singers_main {
+        flex-direction: column;
+    }
+    .slide2 {
+        left: 325px;
+    }
+}

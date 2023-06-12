@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat|Raleway&display=swap');
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    background: white;
+}
+
+h1, p {
+    font-family: 'Raleway', sans-serif;
+}
+
+.btn {
+    cursor: pointer;
+    height: 60px;
+    color: white;
+    font-size: 16px;
+    border: none;
+}

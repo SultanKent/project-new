@@ -1,0 +1,87 @@
+.Shots {
+    color: black;
+    padding: 240px 375px;
+}
+
+.Shots_main {
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.Arrow1 {
+    cursor: pointer;
+    width: 106px;
+    height: 106px;
+    position: absolute;
+    top: 6520px;
+    left: 510px;
+    z-index: 2;
+}
+
+.Arrow2 {
+    cursor: pointer;
+    width: 106px;
+    height: 106px;
+    position: absolute;
+    top: 6520px;
+    left: 1380px;
+    z-index: 2;
+}
+
+.Shots_img {
+    display: flex;
+    gap: 30px;
+    width: 1300px;
+}
+
+.span_img1 {
+    width: 370px;
+    height: 506px;
+}
+
+.span_img1>img {
+    width: 370px;
+    height: 370px;
+    margin-bottom: 20px;
+}
+
+.shot_spans {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+  
+.likes_comments {
+    display: flex;
+    gap: 42px;
+    align-items: center;
+}
+
+.comments {
+    display: flex;
+    gap: 10px;
+}
+
+@media screen and (max-width: 768px) {
+    .Shots {
+        width: 768px;
+        padding: 240px 85px;
+        overflow: hidden;
+    }
+    .Shots_img {
+        width: 708px;
+    }
+    .span_img1>img {
+        width: 180px;
+        height: 180px;
+    }
+    .Arrow1 {
+        top: 9900px;
+        left: 0px;
+    }
+    .Arrow2 {
+        top: 9900px;
+        left: 715px;
+    }
+}

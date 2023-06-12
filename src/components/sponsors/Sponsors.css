@@ -1,0 +1,55 @@
+.Sponsors {
+    width: 1920px;
+    color: black;
+    padding: 0px 425px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 70px;
+}
+
+.icon1 {
+    position: absolute;
+    top: 4770px;
+    left: 0px;
+}
+.icon2 {
+    position: absolute;
+    top: 4840px;
+    left: 1732px;
+}
+
+.sponsors_main {
+    display: flex;
+    flex-direction: column;
+    gap: 81px;
+    align-items: center;
+}
+
+.sponsors_img {
+    display: flex;
+    gap: 130px;
+}
+
+.Sponsor_button {
+    width: 225px;
+    height: 56px;
+    background: #381DDB;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .Sponsors {
+        width: 768px;
+        padding: 0px 85px;
+    }
+    .icon1 {
+        display: none;
+    }
+    .icon2 {
+        display: none;
+    }
+    .sponsors_img {
+        flex-direction: column;
+    }
+}

@@ -1,0 +1,61 @@
+.About {
+    width: 1920px;
+    color: black;
+}
+
+.Icon {
+    position: absolute;
+    left: 93px;
+    top: 2296px;
+}
+
+.About_main {
+    padding: 70px 445px;
+    display: flex;
+    gap: 140px;
+}
+
+.left-a>img:nth-child(1) {
+    z-index: 1;
+    position: relative;
+}
+
+.left-a>img:nth-child(2) {
+    position: absolute;
+    left: 375px;
+    top: 1875px;
+}
+
+.right-a {
+    position: relative;
+    top: 37px;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.right-a1>h4 {
+    padding-bottom: 32px;
+}
+
+.about_btn {
+    background: #381DDB;
+    width: 199px;
+    height: 60px;
+    border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+    .About {
+        width: 768px;
+        overflow: hidden;
+    }
+    .About_main {
+        padding: 170px 85px;
+        flex-direction: column;
+    }
+    .left-a>img:nth-child(2) {
+        left: 275px;
+        top: 3175px;
+    }
+}

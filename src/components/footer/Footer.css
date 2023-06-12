@@ -1,0 +1,146 @@
+.footer_main {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer_main1 {
+    display: flex;
+}
+
+.footer_l {
+    width: 845px;
+    height: 662px;
+    padding: 120px 80px;
+    background: #381DDB;
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+}
+
+.footer_l_text1 {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.footer_l_text2 {
+    display: flex;
+    flex-direction: column;
+    gap: 44px;
+}
+
+.footer_l_texts2 {
+    display: flex;
+    gap: 10px;
+}
+
+.footer_l_texts2>p {
+    font-family: sans-serif;
+}
+
+.footer_r {
+    padding: 103px 130px;
+    color: black;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.form>div {
+    display: flex;
+    flex-direction: column;
+}
+
+.label1>input {
+    border: none; /* Убирает все границы */
+    border-bottom: 1px solid #E0E0E0;
+}
+
+.label1>input:focus {
+    outline: none;
+    border-bottom: 1px solid #E0E0E0;
+    font-size: 16px;
+}
+
+.label2 {
+    display: flex;
+    flex-direction: column;
+    gap: 104px;
+}
+
+.label2>input {
+    border: none;
+    border-bottom: 1px solid blue;
+}
+
+.label2>input:focus {
+    outline: none;
+    border-bottom: 1px solid blue;
+    font-size: 16px;
+}
+
+.footer_btn {
+    width: 570px;
+    height: 56px;
+    background: #381DDB;
+    border-radius: 8px;
+}
+
+.footer_main2 {
+    background: #222222;
+    height: 180px;
+    padding: 40px 360px;
+    width: 1920px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+
+.footer_main_l_r {
+    display: flex;
+    gap: 296px;
+    align-items: center;
+}
+
+.footer_main2_l>ul {
+    list-style-type: none;
+    display: flex;
+    gap: 30px;
+    white-space: nowrap;
+}
+
+.footer_main2_r {
+    display: flex;
+    gap: 128px;
+    align-items: center;
+    white-space: nowrap;
+}
+
+.footer_main2_r1 {
+    display: flex;
+    gap: 36px;
+}
+
+@media screen and (max-width: 768px) {
+    .Footer {
+        width: 768px;
+    }
+    .footer_main1 {
+        display: inline;
+    }
+    .footer_l {
+        width: 821px;
+    }
+    .footer_main2 {
+        padding: 40px 85px;
+        width: 821px;
+        height: 280px;
+    }
+    .footer_main_l_r {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
