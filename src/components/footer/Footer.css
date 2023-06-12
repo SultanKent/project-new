@@ -133,9 +133,13 @@
     }
     .footer_l {
         width: 821px;
+        padding: 120px 95px;
+    }
+    .footer_r {
+        padding: 103px 95px;
     }
     .footer_main2 {
-        padding: 40px 85px;
+        padding: 40px 95px;
         width: 821px;
         height: 280px;
     }

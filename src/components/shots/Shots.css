@@ -77,11 +77,14 @@
         height: 180px;
     }
     .Arrow1 {
-        top: 9900px;
+        top: 9680px;
         left: 0px;
     }
     .Arrow2 {
-        top: 9900px;
+        top: 9680px;
         left: 715px;
+    }
+    .shot_spans {
+        width: 180px;
     }
 }
