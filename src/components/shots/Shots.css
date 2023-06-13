@@ -63,7 +63,42 @@
     gap: 10px;
 }
 
-@media screen and (max-width: 768px) {
+
+@media only screen and (max-width: 480px) {
+    .Shots {
+        width: 100%;
+        padding: 240px 0px;
+        overflow: hidden;
+    }
+    .Shots_main {
+        align-items: center;
+    }
+    .Shots_img {
+        width: 100%;
+    }
+    .span_img1>img {
+        width: 120px;
+        height: 120px;
+    }
+    .Arrow1 {
+        top: 9200px;
+        left: 20px;
+        width: 80px;
+        height: 80px;
+    }
+    .Arrow2 {
+        top: 9200px;
+        left: 295px;
+        width: 80px;
+        height: 80px;
+    }
+    .shot_spans {
+        width: 130px;
+    }
+}
+
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
     .Shots {
         width: 100%;
         padding: 240px 0px;

@@ -48,7 +48,36 @@
     gap: 20px;
 }
 
-@media screen and (max-width: 768px) {
+
+@media only screen and (max-width: 480px) {
+    .Testimonials {
+        overflow: hidden;
+        width: 100%;
+        padding: 240px 0px;
+    }
+    .testimonials_main {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .testimonials_main>h2 {
+        position: inherit;
+    }
+    .testimonials_span {
+        width: 100%;
+    }
+    .main_text {
+        width: 100%;
+    }
+    .Quotes2 {
+        left: 327px;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
     .Testimonials {
         overflow: hidden;
         width: 100%;

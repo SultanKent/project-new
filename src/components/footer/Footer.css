@@ -124,7 +124,38 @@
     gap: 36px;
 }
 
-@media screen and (max-width: 768px) {
+
+@media only screen and (max-width: 480px) {
+    .Footer {
+        width: 100%;
+    }
+    .footer_main1 {
+        display: inline;
+    }
+    .footer_l {
+        width: 100%;
+        padding: 120px 85px;
+    }
+    .footer_r {
+        padding: 85px 85px;
+    }
+    .footer_btn {
+        width: 100%;
+    }
+    .footer_main2 {
+        padding: 40px 85px;
+        width: 100%;
+        height: 280px;
+    }
+    .footer_main_l_r {
+        flex-direction: column;
+        gap: 50px;
+    }
+}
+
+
+
+@media only screen and (max-width: 768px) and (min-width: 481px) {
     .Footer {
         width: 100%;
     }

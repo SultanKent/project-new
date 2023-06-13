@@ -90,7 +90,35 @@
     margin-right: 130px;
 }
 
-@media screen and (max-width: 768px) {
+@media only screen and (max-width: 480px) {
+    .Header {
+        width: 100%;
+        overflow: hidden;
+        height: 960px;
+    }
+    .navbar {
+        display: none;
+    }
+    .header_main {
+        padding: 0px;
+        position: relative;
+        top: 50px;
+    }
+    .header_main>h1 {
+        font-size: 37px;
+        line-height: 50px;
+    }
+    .header_main>p {
+        font-size: 20px;
+        line-height: 30px;
+    }
+    .header_main2 {
+        display: none;
+    }
+} 
+  
+
+    @media only screen and (max-width: 768px) and (min-width: 481px) {
     .Header {
         /* max-width: 821px; */
         width: 100%;
