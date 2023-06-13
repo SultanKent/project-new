@@ -44,15 +44,15 @@ const Singers = () => {
         </motion.div>
         <div className="right-s">
           <div>
-            <img src={Singers1} style={{zIndex: '2'}}/>
+            <img src={Singers1} style={{zIndex: '2'}} className="singers_img"/>
             <img src={Singers1} className="slide"/>
-            <img src={Singers2} style={{zIndex: '2'}}/>
+            <img src={Singers2} style={{zIndex: '2'}} className="singers_img"/>
             <img src={Singers2} className="slide2"/>
           </div>
           <div>
-            <img src={Singers3} style={{zIndex: '2'}}/>
+            <img src={Singers3} style={{zIndex: '2'}} className="singers_img"/>
             <img src={Singers3} className="slide"/>
-            <img src={Singers4} style={{zIndex: '2'}}/>
+            <img src={Singers4} style={{zIndex: '2'}} className="singers_img"/>
             <img src={Singers4} className="slide2"/>
           </div>
 

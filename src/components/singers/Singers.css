@@ -75,8 +75,9 @@
 
 @media screen and (max-width: 768px) {
     .Singers {
-        width: 768px;
-        padding: 0px 95px;
+        width: 100%;
+        overflow: hidden;
+        padding: 0px 85px;
     }
     .sinPattern {
         display: none;
@@ -91,7 +92,17 @@
         flex-direction: column;
         align-items: inherit;
     }
+    .singers_img {
+        width: 170px;
+        height: 150px;
+    }
+    .slide {
+        width: 170px;
+        height: 150px;
+    }
     .slide2 {
-        left: 325px;
+        width: 170px;
+        height: 150px;
+        left: 295px;
     }
 }

@@ -65,24 +65,27 @@
 
 @media screen and (max-width: 768px) {
     .Shots {
-        width: 768px;
-        padding: 240px 85px;
+        width: 100%;
+        padding: 240px 0px;
         overflow: hidden;
     }
+    .Shots_main {
+        align-items: center;
+    }
     .Shots_img {
-        width: 708px;
+        width: 100%;
     }
     .span_img1>img {
         width: 180px;
         height: 180px;
     }
     .Arrow1 {
-        top: 9680px;
-        left: 0px;
+        top: 9430px;
+        left: 35px;
     }
     .Arrow2 {
-        top: 9680px;
-        left: 715px;
+        top: 9430px;
+        left: 455px;
     }
     .shot_spans {
         width: 180px;

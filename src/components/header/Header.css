@@ -92,8 +92,9 @@
 
 @media screen and (max-width: 768px) {
     .Header {
-        /* width: 821px; */
-        width: 821px;
+        /* max-width: 821px; */
+        width: 100%;
+        overflow: hidden;
         height: 960px;
     }
     .navbar {

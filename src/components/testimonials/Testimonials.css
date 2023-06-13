@@ -30,6 +30,12 @@
     bottom: 7px;
     right: 27px;
 }
+
+.main_text {
+    width: 650px;
+    text-align: center;
+}
+
 .Quotes2 {
     position: relative;
     left: 657px;
@@ -45,8 +51,25 @@
 @media screen and (max-width: 768px) {
     .Testimonials {
         overflow: hidden;
-        width: 768px;
+        width: 100%;
         padding: 240px 0px;
     }
-    
+    .testimonials_main {
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+        align-items: center;
+    }
+    .testimonials_main>h2 {
+        position: inherit;
+    }
+    .testimonials_span {
+        width: 100%;
+    }
+    .main_text {
+        width: 100%;
+    }
+    .Quotes2 {
+        left: 457px;
+    }
 }

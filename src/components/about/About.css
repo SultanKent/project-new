@@ -47,15 +47,15 @@
 
 @media screen and (max-width: 768px) {
     .About {
-        width: 768px;
+        width: 100%;
         overflow: hidden;
     }
     .About_main {
-        padding: 170px 95px;
+        padding: 170px 85px;
         flex-direction: column;
     }
     .left-a>img:nth-child(2) {
-        left: 275px;
-        top: 3175px;
+        left: 155px;
+        top: 3105px;
     }
 }

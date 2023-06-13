@@ -88,7 +88,8 @@
 
 @media screen and (max-width: 768px) {
     .Tier {
-        width: 768px;
+        width: 100%;
+        overflow: hidden;
         padding: 240px 85px;
     }
     .tiers {

@@ -29,7 +29,7 @@ const Testimonials = () => {
         <motion.span variants={textAnimation} custom={2} className='testimonials_span'>
           <div className="testimonials_span1">
           <img src={Quotes1} className='Quotes1'/>
-          <p style={{width: '650px', textAlign: 'center'}}>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+          <p className='main_text'>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
           <img src={Quotes2} className='Quotes2'/>
           </div>
           <div className='testimonials_span2'>
