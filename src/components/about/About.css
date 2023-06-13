@@ -54,8 +54,14 @@
         padding: 170px 85px;
         flex-direction: column;
     }
+    .left-a>img:nth-child(1) {
+        width: 260px;
+        height: 280px;
+    }
     .left-a>img:nth-child(2) {
         left: 155px;
         top: 3105px;
+        width: 260px;
+        height: 280px;
     }
 }
