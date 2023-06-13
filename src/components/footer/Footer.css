@@ -128,13 +128,15 @@
 @media only screen and (max-width: 480px) {
     .Footer {
         width: 100%;
+        overflow: hidden;
     }
     .footer_main1 {
         display: inline;
     }
     .footer_l {
         width: 100%;
-        padding: 120px 85px;
+        padding: 60px 85px;
+        height: 462px;
     }
     .footer_r {
         padding: 85px 85px;
@@ -151,6 +153,12 @@
         flex-direction: column;
         gap: 50px;
     }
+    .footer_main2_l {
+        font-size: 10px;
+    }
+    .footer_main2_r {
+        gap: 18px;
+    }
 }
 
 
@@ -158,6 +166,7 @@
 @media only screen and (max-width: 768px) and (min-width: 481px) {
     .Footer {
         width: 100%;
+        overflow: hidden;
     }
     .footer_main1 {
         display: inline;

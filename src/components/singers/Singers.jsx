@@ -35,7 +35,7 @@ const Singers = () => {
          variants={textAnimation} className="left-s">
             <div className="left-s1">
             <h4 style={{fontSize: '24px'}}>Singers</h4>
-            <p style={{width: '470px', height: '144px'}}>Fusce justo mi, vehicula id arcu et, dapibus tristique lectus. Vivamus a elit sodales, tincidunt nunc non, maximus lacus. Fusce a augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus non neque suscipit luctus. Mauris et erat id ipsum condimentum cursus. Sed tempus enim non massa mattis iaculis. In quis massa risus</p>
+            <p className='Singers_p'>Fusce justo mi, vehicula id arcu et, dapibus tristique lectus. Vivamus a elit sodales, tincidunt nunc non, maximus lacus. Fusce a augue sed dolor auctor iaculis vitae id mauris. Integer ut lectus non neque suscipit luctus. Mauris et erat id ipsum condimentum cursus. Sed tempus enim non massa mattis iaculis. In quis massa risus</p>
         </div>
         <motion.button
         whileHover={{ scale: 1.1 }}

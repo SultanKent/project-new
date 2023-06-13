@@ -28,6 +28,11 @@
     gap: 30px;
 }
 
+.Singers_p {
+    width: 470px;
+    height: 144px;
+}
+
 .left-s{
     display: flex;
     flex-direction: column;
@@ -74,11 +79,11 @@
 }
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px)  {
     .Singers {
         width: 100%;
         overflow: hidden;
-        padding: 0px 85px;
+        padding: 0px 65px;
     }
     .sinPattern {
         display: none;
@@ -93,6 +98,9 @@
         flex-direction: column;
         align-items: inherit;
     }
+    .Singers_p {
+        width: 300px;
+    }
     .singers_img {
         width: 170px;
         height: 150px;
@@ -104,7 +112,7 @@
     .slide2 {
         width: 170px;
         height: 150px;
-        left: 265px;
+        left: 220px;
     }
 }
 

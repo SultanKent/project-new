@@ -49,13 +49,13 @@
 
 
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px){
     .About {
         width: 100%;
         overflow: hidden;
     }
     .About_main {
-        padding: 170px 85px;
+        padding: 170px 65px;
         flex-direction: column;
     }
     .left-a>img:nth-child(1) {
@@ -67,6 +67,9 @@
         top: 2975px;
         width: 260px;
         height: 280px;
+    }
+    .Icon {
+        display: none;
     }
 }
 
