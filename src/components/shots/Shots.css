@@ -1,6 +1,6 @@
 .Shots {
     color: black;
-    padding: 240px 375px;
+    padding: 28px 375px;
 }
 
 .Shots_main {
@@ -13,9 +13,9 @@
     cursor: pointer;
     width: 106px;
     height: 106px;
-    position: absolute;
-    top: 6520px;
-    left: 510px;
+    position: relative;
+    top: 310px;
+    left: 130px;
     z-index: 2;
 }
 
@@ -23,9 +23,9 @@
     cursor: pointer;
     width: 106px;
     height: 106px;
-    position: absolute;
-    top: 6520px;
-    left: 1380px;
+    position: relative;
+    bottom: 410px;
+    left: 1000px;
     z-index: 2;
 }
 
@@ -81,14 +81,14 @@
         height: 120px;
     }
     .Arrow1 {
-        top: 9200px;
-        left: 20px;
         width: 80px;
         height: 80px;
+        top: 165px;
+        left: -132px;
     }
     .Arrow2 {
-        top: 9200px;
-        left: 295px;
+        bottom: 537px;
+        left: 132px;
         width: 80px;
         height: 80px;
     }

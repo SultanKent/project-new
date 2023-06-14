@@ -55,7 +55,7 @@
         overflow: hidden;
     }
     .About_main {
-        padding: 170px 65px;
+        padding: 170px 55px;
         flex-direction: column;
     }
     .left-a>img:nth-child(1) {
@@ -63,7 +63,7 @@
         height: 280px;
     }
     .left-a>img:nth-child(2) {
-        left: 125px;
+        left: 115px;
         top: 2975px;
         width: 260px;
         height: 280px;

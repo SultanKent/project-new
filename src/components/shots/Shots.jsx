@@ -80,11 +80,11 @@ const Shots = () => {
               </SwiperSlide>
             ))}
             </Swiper>
-            <img
+          </div>
+          <img
             src={Arrow2}
             className="Arrow2"
           />
-          </div>
         </div>
     </motion.div>
   );

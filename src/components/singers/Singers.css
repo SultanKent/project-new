@@ -83,7 +83,7 @@
     .Singers {
         width: 100%;
         overflow: hidden;
-        padding: 0px 65px;
+        padding: 0px 55px;
     }
     .sinPattern {
         display: none;
@@ -101,9 +101,13 @@
     .Singers_p {
         width: 300px;
     }
+    .right-s {
+        position: relative;
+        right: 40px;
+    }
     .singers_img {
         width: 170px;
-        height: 150px;
+        height: 160px;
     }
     .slide {
         width: 170px;
@@ -112,7 +116,7 @@
     .slide2 {
         width: 170px;
         height: 150px;
-        left: 220px;
+        left: 176px;
     }
 }
 

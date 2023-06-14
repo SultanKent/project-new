@@ -29,7 +29,7 @@ const Footer = () => {
                         <p>abuzer@greelogix.com</p>
                     </div>
                     <div className='footer_l_texts2'>
-                        <img src={Footer3}/>
+                        <img src={Footer3} style={{width: '20px', height: '25px'}}/>
                         <p>Plot 252, Block L Phase 2 Johar Town, Lahore, PK</p>
                     </div>
                     </div>
