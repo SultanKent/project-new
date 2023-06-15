@@ -39,7 +39,7 @@ const Sponsors = () => {
     initial="hidden"
     whileInView="visible"
     viewport={{ amount: 0.2, once: true }}
-    className="Sponsors">
+    className="Sponsors" id='Sponsors'>
       <img src={Sponsors1} className="icon1"/>
       <img src={Sponsors2} className="icon2"/>
       <motion.h2 variants={textAnimation} custom={1}>Our Sponsors</motion.h2>

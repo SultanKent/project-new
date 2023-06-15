@@ -26,7 +26,7 @@ const Singers = () => {
     initial="hidden"
     whileInView="visible"
     viewport={{ amount: 0.2, once: true }}
-    className="Singers">
+    className="Singers" id='Singers'>
       <img src={sinPattern} className="sinPattern"/>
       <img src={sinConfetti} className="sinConfetti"/>
       <img src={sinRectangle} className="sinRectangle"/>

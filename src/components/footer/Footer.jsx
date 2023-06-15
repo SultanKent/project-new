@@ -57,7 +57,7 @@ const Footer = () => {
                 </div>
             </div>
 
-            <div className="footer_main2">
+            <div className="footer_main2" id='Footer'>
             <h2 style={{ fontFamily: 'Montserrat', width: '125px', height: '45px'}}>Musik.</h2>
             <div className="footer_main_l_r">
                 <div className="footer_main2_l">

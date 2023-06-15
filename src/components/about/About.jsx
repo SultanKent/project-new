@@ -22,7 +22,7 @@ const About = () => {
     initial="hidden"
     whileInView="visible"
     viewport={{ amount: 0.2, once: true }}
-    className="About">
+    className="About" id='About'>
       <img src={Icon} className="Icon"/>
         <div className="About_main">
             <div className="left-a">
