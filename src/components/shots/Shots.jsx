@@ -51,8 +51,17 @@ const Shots = () => {
           spaceBetween={3}
           slidesPerView={3}
           breakpoints={{
+            1440: {
+              slidesPerView: 3,
+            },
             768: {
               slidesPerView: 3,
+            },
+            480: {
+              slidesPerView: 1,
+            },
+            320: {
+              slidesPerView: 1,
             },
           }}
           navigation={{

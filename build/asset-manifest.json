@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/project-new/static/css/main.b89fbd8e.css",
-    "main.js": "/project-new/static/js/main.a0e89311.js",
+    "main.css": "/project-new/static/css/main.300200df.css",
+    "main.js": "/project-new/static/js/main.4cd7042f.js",
     "static/media/Img.png": "/project-new/static/media/Img.ed21df3b36ef8525fc4d.png",
     "static/media/Shots1.png": "/project-new/static/media/Shots1.303d590a90edafc885b7.png",
     "static/media/Shots3.png": "/project-new/static/media/Shots3.5597c55d698acc97ae9a.png",
@@ -28,6 +28,7 @@
     "static/media/raleway-latin-300.woff": "/project-new/static/media/raleway-latin-300.8f254453a1fc40c97013.woff",
     "static/media/raleway-latin-200.woff": "/project-new/static/media/raleway-latin-200.b5cd4204f7fc864d773e.woff",
     "static/media/raleway-latin-500italic.woff": "/project-new/static/media/raleway-latin-500italic.eb7a94a4abbb87742f65.woff",
+    "static/media/Menu1.png": "/project-new/static/media/Menu1.2e597f5d92705530115c.png",
     "static/media/raleway-latin-100italic.woff": "/project-new/static/media/raleway-latin-100italic.4c06a4ee32ce7b3b091d.woff",
     "static/media/raleway-latin-500.woff": "/project-new/static/media/raleway-latin-500.627800d124ceee1f74f4.woff",
     "static/media/raleway-latin-900.woff": "/project-new/static/media/raleway-latin-900.7916b2df8f4907823671.woff",
@@ -88,14 +89,15 @@
     "static/media/montserrat-latin-100italic.woff2": "/project-new/static/media/montserrat-latin-100italic.e279051046ba1286706a.woff2",
     "static/media/montserrat-latin-100.woff2": "/project-new/static/media/montserrat-latin-100.8d7d79679b70dbe27172.woff2",
     "static/media/comments.png": "/project-new/static/media/comments.a7384ecae7d2b36a6d50.png",
+    "static/media/Menu.png": "/project-new/static/media/Menu.a633845bca57a0d1a648.png",
     "static/media/Arrow2.png": "/project-new/static/media/Arrow2.eddbaf401fac7aa6b81f.png",
     "static/media/Arrow1.png": "/project-new/static/media/Arrow1.0fc2e5acce24145416ee.png",
     "index.html": "/project-new/index.html",
-    "main.b89fbd8e.css.map": "/project-new/static/css/main.b89fbd8e.css.map",
-    "main.a0e89311.js.map": "/project-new/static/js/main.a0e89311.js.map"
+    "main.300200df.css.map": "/project-new/static/css/main.300200df.css.map",
+    "main.4cd7042f.js.map": "/project-new/static/js/main.4cd7042f.js.map"
   },
   "entrypoints": [
-    "static/css/main.b89fbd8e.css",
-    "static/js/main.a0e89311.js"
+    "static/css/main.300200df.css",
+    "static/js/main.4cd7042f.js"
   ]
 }
