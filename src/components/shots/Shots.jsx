@@ -58,7 +58,7 @@ const Shots = () => {
               slidesPerView: 3,
             },
             480: {
-              slidesPerView: 1,
+              slidesPerView: 3,
             },
             320: {
               slidesPerView: 1,

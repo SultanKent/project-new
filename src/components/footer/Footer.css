@@ -5,6 +5,7 @@
 
 .footer_main1 {
     display: flex;
+    width: 1440px;
 }
 
 .footer_l {
@@ -39,7 +40,6 @@
 }
 
 .footer_r {
-    padding: 103px 130px;
     color: black;
 }
 
@@ -47,6 +47,9 @@
     display: flex;
     flex-direction: column;
     gap: 35px;
+    top: 103px;
+    position: relative;
+    left: 160px;
 }
 
 .form>div {
@@ -132,6 +135,7 @@
     }
     .footer_main1 {
         display: inline;
+        width: unset;
     }
     .footer_l {
         width: 100%;
@@ -140,6 +144,9 @@
     }
     .footer_r {
         padding: 85px 85px;
+    }
+    .form {
+        position: inherit;
     }
     .footer_btn {
         width: 100%;
