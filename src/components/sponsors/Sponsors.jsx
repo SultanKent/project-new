@@ -48,7 +48,7 @@ const Sponsors = () => {
     visible: {
       x: 0,
       opacity: 1,
-      transition: { duration: 1 },
+      transition: { duration: 0.6 },
     },
     hiddenRight: {
       x: 100,
