@@ -100,6 +100,17 @@
     }
 }
 
+@media only screen and (max-width: 400px) {
+    .span_img1>img {
+        height: 280px;
+    }
+    .Arrow1 {
+        top: 260px;
+    }
+    .Arrow2 {
+        bottom: 532px;
+    }
+}
 
 @media only screen and (max-width: 768px) and (min-width: 481px) {
     .Shots {
